@@ -32,27 +32,24 @@
   </repositories>
 
   <properties>
-    <version.webbyconvention>0.2-SNAPSHOT</version.webbyconvention>
-    <version.ateamhibernate>0.1-SNAPSHOT</version.ateamhibernate>
-    <version.bean2bean>1.1.4</version.bean2bean>
-    <version.groovy>2.1.5</version.groovy>
-    <version.diamond>1.0.1-SNAPSHOT</version.diamond>
+    <version.hibernatebyconvnetion>0.1-SNAPSHOT</version.hibernatebyconvnetion>
+    <version.transformer>0.1-SNAPSHOT</version.transformer>
   </properties>
 
   <dependencies>
 
     <!-- Programmatic hibernate -->
     <dependency>
-      <groupId>ar.com.tenpines</groupId>
-      <artifactId>ateam-hibernate</artifactId>
-      <version>${version.ateamhibernate}</version>
+      <groupId>ar.com.kfgodel</groupId>
+      <artifactId>hibernate-by-convention</artifactId>
+      <version>${version.hibernatebyconvnetion}</version>
     </dependency>
 
     <!-- Type transformations to ease communication with other systems -->
     <dependency>
       <groupId>ar.com.kfgodel</groupId>
       <artifactId>transform-by-convention</artifactId>
-      <version>0.1-SNAPSHOT</version>
+      <version>${version.transformer}</version>
     </dependency>
 
     <!-- Spec for testing -->

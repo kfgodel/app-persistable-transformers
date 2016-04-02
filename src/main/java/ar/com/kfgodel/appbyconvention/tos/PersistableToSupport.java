@@ -3,7 +3,7 @@
  */
 package ar.com.kfgodel.appbyconvention.tos;
 
-import ar.com.tenpines.orm.api.entities.Persistable;
+import ar.com.kfgodel.orm.api.entities.Persistable;
 import net.sf.kfgodel.bean2bean.annotations.CopyFrom;
 
 /**

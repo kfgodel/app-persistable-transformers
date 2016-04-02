@@ -5,9 +5,9 @@ package convention.transformers.persistibles;
 
 import ar.com.kfgodel.appbyconvention.tos.PersistableTo;
 import ar.com.kfgodel.nary.api.Nary;
-import ar.com.tenpines.orm.api.HibernateOrm;
-import ar.com.tenpines.orm.api.entities.Persistable;
-import ar.com.tenpines.orm.api.operations.basic.FindById;
+import ar.com.kfgodel.orm.api.HibernateOrm;
+import ar.com.kfgodel.orm.api.entities.Persistable;
+import ar.com.kfgodel.orm.api.operations.basic.FindById;
 import net.sf.kfgodel.bean2bean.Bean2Bean;
 import net.sf.kfgodel.bean2bean.conversion.SpecializedTypeConverter;
 import net.sf.kfgodel.bean2bean.exceptions.CannotConvertException;

@@ -1,6 +1,6 @@
 package convention.transformers.persistibles;
 
-import ar.com.tenpines.orm.api.entities.Identifiable;
+import ar.com.kfgodel.orm.api.entities.Identifiable;
 import net.sf.kfgodel.bean2bean.conversion.SpecializedTypeConverter;
 import net.sf.kfgodel.bean2bean.exceptions.CannotConvertException;
 
